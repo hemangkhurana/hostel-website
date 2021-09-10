@@ -5,12 +5,14 @@ import SliderData from "./image-slider/SliderData";
 import About from "./About/About.jsx";
 import History from "./History/History.jsx";
 import Achievements from "./Achievements/Achievements.jsx";
+import Calendar from "./Calendar/Calendar.jsx";
 
 function App() {
     return (
         <div>
             <Navbar/>
             <ImageSlider slides={SliderData}/>
+            <Calendar/>
             <About/>
             <History/>
             <Achievements/>

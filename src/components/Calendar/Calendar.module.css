@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    max-height: 200px;
+    /* border: 1px solid red; */
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+.item {
+    min-width: 200px;
+    min-height: 200px;
+    /* line-height: 200px; */
+    text-align: center;
+    background: #ddd;
+    margin-right: 4px;
+    border-radius: 10px;
+}
+
+.item h1 {
+    margin-top: 10px;
+}
+
+.item hr {
+    height: 1px;
+    border:1px;
+    margin: 10px 0;
+    background: #000;
+}
+
+.item p {
+    text-align: justify;
+    margin: 10px;
+}

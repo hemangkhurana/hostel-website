@@ -2,12 +2,6 @@ import React from "react";
 import styles from "./ImageSlider.module.css";
 import SliderData from "./SliderData";
 
-function ImgComp({src}) {
-    let imgStyles={
-        width:100+"%",
-        height: "auto"
-    }
-}
 
 function ImageSlider() {
 
