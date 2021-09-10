@@ -34,8 +34,8 @@ function ImageSlider() {
                     </div>
                 );
             })}
-            <button id={styles.goLeft} onClick={goLeft}>left</button>
-            <button id={styles.goRight} onClick={goRight}>right</button>
+            <button id={styles.goLeft} onClick={goLeft}><i class="fas fa-angle-left"></i></button>
+            <button id={styles.goRight} onClick={goRight}><i class="fas fa-angle-right"></i></button>
         </div>
     );
 }
