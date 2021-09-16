@@ -1,22 +1,20 @@
 import React from "react";
-import Navbar from "./navbar/Navbar.jsx";
-import ImageSlider from "./image-slider/ImageSlider.jsx";
-import SliderData from "./image-slider/SliderData";
-import About from "./About/About.jsx";
-import History from "./History/History.jsx";
-import Achievements from "./Achievements/Achievements.jsx";
-import Calendar from "./Calendar/Calendar.jsx";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Home/Home";
+import Navbar from "./navbar/Navbar";
+import Contact from "./Contact/Contact";
 
 function App() {
     return (
-        <div>
-            <Navbar/>
-            <ImageSlider slides={SliderData}/>
-            <Calendar/>
-            <About/>
-            <History/>
-            <Achievements/>
-        </div>
+        <Router>
+            <div>
+                <Navbar/>
+                <Switch>
+                    <Route path="/" exact component={Home}/>
+                    <Route path="/contacts" exact component={Contact}/>
+                </Switch>
+            </div>
+        </Router>
     );
 }
 

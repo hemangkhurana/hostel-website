@@ -78,9 +78,7 @@
     color: whitesmoke;
 }
 
-
-
 .img {
-    max-width: 100%;
-    height: auto;
+    width: auto;
+    min-height: 80%;
 }

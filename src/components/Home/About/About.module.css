@@ -6,10 +6,11 @@
 }
 
 .about {
+    margin: 0 200px;
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
 }
 
 .heading {
@@ -17,11 +18,22 @@
 }
 
 .horizontal_line {
-    width: 260px;
+    width: 130px;
+    border: #fff;
+    border-bottom: 2px solid black;
 }
 
 .about_description {
     text-align: justify;
-    padding: 5px 10px 0 20px;
+    padding: 5px 0 0 0;
     line-height: 1.6rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .about {
+        margin: 10px;
+    }
+    .about_description {
+        padding: 5px 10px 0 20px;
+    }
 }

@@ -10,8 +10,8 @@
     height: 240px;
     /* border: 1px solid red; */
     display: flex;
-    overflow-x: auto;
-    margin-bottom: 20px;
+    overflow-x: scroll;
+    margin: 0 220px 20px 220px;
 }
 
 .calendar::-webkit-scrollbar{
@@ -63,4 +63,10 @@
     max-height: 230px;
     transition: 0.4s ease;
     padding: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .calendar {
+        margin: 0 5px 20px 5px;
+    }
 }
