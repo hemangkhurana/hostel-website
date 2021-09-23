@@ -32,23 +32,15 @@ function Navbar() {
             </Link>
             {(toggleMenu || screenWidth>900) && (
             <ul className={styles.navbar_menu}>
-                <li className={styles.navbar_item}>
-                    <a className={styles.navbar_link} href="/#about" >About Us</a>
-                </li>
-                <Link className={styles.react_router_link_item} to="/contacts">
-                    <li className={styles.navbar_item}>
-                        <a className={styles.navbar_link} href="#team">Our Team</a>
-                    </li>
+                <Link className={styles.react_router_link_item} to="/">
+                    <li className={styles.navbar_item}>Home</li>
                 </Link>
-                <li className={styles.navbar_item}>
-                    <a className={styles.navbar_link} href="/#calendar">Calendar</a>
-                </li>
-                <li className={styles.navbar_item}>
-                    <a className={styles.navbar_link} href="#contact">Contact Us</a>
-                </li>
-                <li className={styles.navbar_item}>
-                    <a className={styles.navbar_link} href="#family">Family</a>
-                </li>
+                <Link className={styles.react_router_link_item} to="/team">
+                    <li className={styles.navbar_item}>Our Team</li>
+                </Link>
+                <li className={styles.navbar_item}>Images</li>
+                <li className={styles.navbar_item}>Contact Us</li>
+                <li className={styles.navbar_item}>Family</li>
             </ul>
             )}
             <div className={styles.btn} onClick={ChangeToggleMenu}>

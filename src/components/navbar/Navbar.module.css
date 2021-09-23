@@ -11,8 +11,6 @@
 
 .react_router_link_item {
     text-decoration: none;
-    display: flex;
-    justify-content: center;
 }
 
 .navbar {
@@ -42,20 +40,22 @@
     background: #131313;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    padding: 0 0 0 10px;
+    padding: 0 10px;
 }
 
 
 .navbar_item {
-    height: 80px;
-    width: 100px;
-    padding: 30px 10px 0 10px;
+    padding: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    transition: 0.3s ease;
 }
 
-.navbar_link {
-    color: #ffffff;
-    text-decoration: none;
+.navbar_item:hover {
+    text-decoration: underline;
+    transition: 0.4s ease;
 }
+
 
 .btn {
     display: none;
@@ -93,32 +93,25 @@
 
     .react_router_link_item {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .navbar_item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        height: 60px;
-        /* border: red solid 1px; */
-        padding: 0;
-    }
-
-    .navbar_link {
         color: #000000;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 1.6rem;
-        width: 100%;
+        width: 50%;
         height: 60px;
         /* border: 1px solid #000; */
         padding: 0;
         transition: 0.4s ease;
     }
 
-    .navbar_link:hover {
+    .navbar_item:hover {
+        text-decoration: none;
         transition: 0.5s ease;
         background: #ddd;
         border-radius: 8px;
