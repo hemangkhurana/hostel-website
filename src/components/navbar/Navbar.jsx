@@ -30,7 +30,7 @@ function Navbar() {
             <Link className={styles.react_router_link_heading} to="/">
                 <h1 className={styles.navbar_heading}>Nilgiri Hostel</h1>
             </Link>
-            {(toggleMenu || screenWidth>900) && (
+            {(toggleMenu || screenWidth>1100) && (
             <ul className={styles.navbar_menu}>
                 <Link className={styles.react_router_link_item} to="/">
                     <li className={styles.navbar_item}>Home</li>
@@ -38,9 +38,9 @@ function Navbar() {
                 <Link className={styles.react_router_link_item} to="/team">
                     <li className={styles.navbar_item}>Our Team</li>
                 </Link>
-                <li className={styles.navbar_item}>Images</li>
-                <li className={styles.navbar_item}>Contact Us</li>
-                <li className={styles.navbar_item}>Family</li>
+                <li className={styles.navbar_item}>Gallery</li>
+                <li className={styles.navbar_item}>Notice Board</li>
+                <li className={styles.navbar_item}>Complaint Form</li>
             </ul>
             )}
             <div className={styles.btn} onClick={ChangeToggleMenu}>
