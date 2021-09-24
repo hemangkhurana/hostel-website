@@ -38,7 +38,9 @@ function Navbar() {
                 <Link className={styles.react_router_link_item} to="/team">
                     <li className={styles.navbar_item}>Our Team</li>
                 </Link>
-                <li className={styles.navbar_item}>Gallery</li>
+                <Link className={styles.react_router_link_item} to="/Gallery">
+                    <li className={styles.navbar_item}>Gallery</li>
+                </Link>
                 <li className={styles.navbar_item}>Notice Board</li>
                 <li className={styles.navbar_item}>Complaint Form</li>
             </ul>
