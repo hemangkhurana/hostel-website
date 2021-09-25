@@ -13,6 +13,7 @@ function PhotoGallery() {
     function PhotoCard(props) {
         return (
             <div className={styles.photo_card} onClick={() => getImg(props.image)}>
+                <h1 className={styles.img_heading}>{props.imgName}</h1>
                 <img className={styles.photo} src={props.image} alt="image" />
             </div>
         );

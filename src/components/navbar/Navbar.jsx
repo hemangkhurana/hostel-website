@@ -21,9 +21,6 @@ function Navbar() {
         return setToggleMenu(!toggleMenu);
     }
 
-    function onClickToggle() {
-        return setToggleMenu(false);
-    }
 
     return (
         <div className={styles.navbar}>
@@ -33,16 +30,18 @@ function Navbar() {
             {(toggleMenu || screenWidth>1100) && (
             <ul className={styles.navbar_menu}>
                 <Link className={styles.react_router_link_item} to="/">
-                    <li className={styles.navbar_item}>Home</li>
+                    <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Home</li>
                 </Link>
                 <Link className={styles.react_router_link_item} to="/team">
-                    <li className={styles.navbar_item}>Our Team</li>
+                    <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Our Team</li>
                 </Link>
-                <Link className={styles.react_router_link_item} to="/Gallery">
-                    <li className={styles.navbar_item}>Gallery</li>
+                <Link className={styles.react_router_link_item} to="/gallery">
+                    <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Gallery</li>
                 </Link>
-                <li className={styles.navbar_item}>Notice Board</li>
-                <li className={styles.navbar_item}>Complaint Form</li>
+                <Link className={styles.react_router_link_item} to="/noticeboard">
+                    <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Notice Board</li>
+                </Link>
+                <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Complaint Form</li>
             </ul>
             )}
             <div className={styles.btn} onClick={ChangeToggleMenu}>

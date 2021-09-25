@@ -16,7 +16,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background: #ffffff;
+    background: #eee;
     height: 100px;
     width: 100%;
     align-items: center;
@@ -80,11 +80,11 @@
         flex-direction: column;
         text-align: center;
         width: 100%;
-        background: #ffffff;
+        background: #eee;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         right: 0;
-        top: 80px;
+        top: 100px;
         padding-bottom: 15px;
         position: absolute;
         opacity: 1;
