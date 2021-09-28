@@ -6,15 +6,23 @@
 }
 
 .achievements {
-    margin: 0 200px;
+    margin:  15px 20px;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px;
+    border: 5px outset;
 }
 
 .heading {
     padding-bottom: 2px;
+}
+
+.achievements_img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
 .horizontal_line {
@@ -31,9 +39,14 @@
 
 @media screen and (max-width: 1100px) {
     .achievements {
-        margin: 10px;
+        margin: 5px;
+        border: none;
+        padding: 0;
+    }
+    .achievements_img {
+        display: none;
     }
     .achievements_description {
-        padding: 5px 10px 0 20px;
+        padding: 5px 10px 0 10px;
     }
 }

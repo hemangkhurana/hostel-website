@@ -13,8 +13,6 @@
     align-items: center;
     transition: 0.5s;
     overflow: hidden;
-    padding-top: 100px;
-    margin-bottom: 80px;
 }
 
 .slide {
@@ -88,5 +86,17 @@
 @media screen and (max-width: 1000px) {
     .slider {
         height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider {
+        height: 200px;
     }
 }

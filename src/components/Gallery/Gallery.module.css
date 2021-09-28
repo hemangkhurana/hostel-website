@@ -111,11 +111,19 @@
     margin: 0 auto;
 }
 
+.model_imgName {
+    position: absolute;
+    color: #fff;
+    top:30px;
+    left: 30px;
+    font-size: 25px;
+}
+
 .model i {
     position: fixed;
-    right: 50px;
-    top: 50px;
-    font-size: 30px;
+    right: 30px;
+    top: 30px;
+    font-size: 40px;
     color: #fff;
 }
 

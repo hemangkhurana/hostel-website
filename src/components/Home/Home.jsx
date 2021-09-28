@@ -10,7 +10,6 @@ import Calendar from "./Calendar/Calendar.jsx";
 function Home() {
     return (
         <div>
-            <Navbar/>
             <ImageSlider slides={SliderData}/>
             <Calendar/>
             <About/>
