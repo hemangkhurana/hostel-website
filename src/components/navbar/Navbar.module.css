@@ -79,6 +79,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        justify-content: center;
         width: 100%;
         background: #eee;
         border-top-left-radius: 0;
@@ -91,7 +92,12 @@
         transition: all 1s ease;
     }
 
-
+    .navbar_menu a {
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
     .react_router_link_item {
         width: 100%;
@@ -143,7 +149,7 @@
     }
     .navbar_heading {
         padding-left: 10px;
-        font-size: 40px;
+        font-size: 32px;
         min-width: 300px;
     }
     .navbar_item {

@@ -6,23 +6,23 @@
 }
 
 .heading1 {
-    padding-top: 150px;
-    font-size: 60px;
-    text-align: center;
-}
-
-.heading2 {
-    padding-top: 70px;
+    padding-top: 30px;
     font-size: 50px;
     text-align: center;
 }
 
 .hr1 { 
-    padding-top: 5px;
+    /* padding-top: 5px; */
     padding-bottom: 10px;
     margin: 0 10%;
     border: #fff;
-    border-bottom: 4px dotted black;
+    border-bottom: 3px solid black;
+}
+
+.heading2 {
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
 }
 
 .hr2 { 
@@ -105,5 +105,73 @@
 
 .mail {
     color: #000099;
+}
+
+@media screen and (max-width: 1100px) {
+    .heading1 {
+        font-size: 30px;
+    }
+
+    .heading2 {
+        font-size: 25px;
+    }
+
+    .TeamCard {
+        height: 240px;
+        width: 350px;
+        margin: 20px;
+    }
+
+    .TeamCard_top {
+        height: 80px;
+        width: 350px;
+        padding-left: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .TeamCard_mid {
+        height: 104px;
+        width: 350px;
+        padding-left: 10px;
+    }
+
+    .TeamCard_bottom {
+        height: 56px;
+        width: 350px;
+        padding-left: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .Card_img {
+        height: 100px;
+        width: 100px;
+        margin-left: 240px;
+        margin-top: 24px;
+        border: 4px solid #fff;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .position {
+        font-size: 15px;
+    }
+
+    .description {
+        margin-right: 100px;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .phone {
+        font-size: 0.8rem;
+    }
+    
+    .mail {
+        font-size: 0.8rem;
+    }
 }
 

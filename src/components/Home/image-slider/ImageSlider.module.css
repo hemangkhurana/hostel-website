@@ -65,10 +65,10 @@
 }
 
 #goLeft i {
-    font-size: 40px;
+    font-size: 60px;
 }
 #goRight i {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 #goLeft:hover i {
@@ -92,6 +92,12 @@
 @media screen and (max-width: 768px) {
     .slider {
         height: 300px;
+    }
+    #goLeft i {
+        font-size: 40px;
+    }
+    #goRight i {
+        font-size: 40px;
     }
 }
 

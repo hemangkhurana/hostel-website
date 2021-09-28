@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <div className={styles.navbar}>
             <Link className={styles.react_router_link_heading} to="/">
-                <h1 className={styles.navbar_heading}>Nilgiri Hostel</h1>
+                <h1 className={styles.navbar_heading}>NILGIRI HOSTEL</h1>
             </Link>
             {(toggleMenu || screenWidth>1100) && (
             <ul className={styles.navbar_menu}>
@@ -41,7 +41,9 @@ function Navbar() {
                 <Link className={styles.react_router_link_item} to="/noticeboard">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Notice Board</li>
                 </Link>
-                <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Complaint Form</li>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLVjpieSUCgByssFVMTrqtFYtrETk6gGz-BbwV8hmxukw86A/viewform" target="_blank">
+                    <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Complaint Form</li>
+                </a>
             </ul>
             )}
             <div className={styles.btn} onClick={ChangeToggleMenu}>
