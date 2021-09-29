@@ -11,28 +11,36 @@
 
 .react_router_link_item {
     text-decoration: none;
+    position: relative;
+    z-index: 99;
 }
 
 .navbar {
     display: flex;
+    position: relative;
     justify-content: space-between;
     background: #eee;
     height: 100px;
     width: 100%;
     align-items: center;
-    position: relative;
-    z-index: 999;
+}
+
+.navbar_background {
+    display: none;
 }
 
 .navbar_heading {
+    position: relative;
     color:#000000;
     min-width: 400px;
     padding-left: 50px;
     font-size: 50px;
+    z-index: 990;
 }
 
 .navbar_menu {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -41,14 +49,17 @@
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 0 10px;
+    z-index: 99;
 }
 
 
 .navbar_item {
+    position: relative;
     padding: 20px;
     font-size: 18px;
     color: #ffffff;
     transition: 0.3s ease;
+    z-index: 99;
 }
 
 .navbar_item:hover {
@@ -58,9 +69,10 @@
 
 
 .btn {
+    position: relative;
     display: none;
     color: #ff0000;
-    z-index: 111;
+    z-index: 990;
     cursor: pointer;
     padding: 10px;
 }
@@ -74,6 +86,14 @@
 
 @media screen and (max-width: 1100px) {
     
+    .navbar_background {
+        display: flex;
+        background: #eee;
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        z-index: 990;
+    }
     .navbar_menu {
         height: auto;
         display: flex;
@@ -85,11 +105,18 @@
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         right: 0;
-        top: 80px;
+        top: -200px;
         padding-bottom: 15px;
         position: absolute;
-        opacity: 1;
-        transition: all 1s ease;
+        transition: all 0.4s ease;
+        z-index: 99;
+        /* left: -100%; */
+    }
+
+    .navbar_menu.active {
+        /* left:0; */
+        top: 95px;
+        transition: all 0.4s ease;
     }
 
     .navbar_menu a {
@@ -145,7 +172,9 @@
 @media screen and (max-width: 768px) {
     .navbar {
         height: 80px;
-
+    }
+    .navbar_background {
+        height: 80px;
     }
     .navbar_heading {
         padding-left: 10px;
@@ -158,7 +187,10 @@
         height: 40px;
     }
     .navbar_menu {
-        top: 70px;
+        top: -150px;
+    }
+    .navbar_menu.active {
+        top: 75px;
     }
     .btn {
         margin-right: 10px;

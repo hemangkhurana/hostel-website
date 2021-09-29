@@ -5,30 +5,21 @@ import {Link} from "react-router-dom";
 function Navbar() {
 
     const [toggleMenu, setToggleMenu] = React.useState(false)
-    const [screenWidth, setScreenWidth] = React.useState(window.innerWidth)
-
-    React.useEffect(function() {
-        function changeWidth () {
-            return setScreenWidth(window.innerWidth);
-        }
-        window.addEventListener('resize', changeWidth)
-        return (function() {
-            return window.removeEventListener('resize', changeWidth)
-        })
-    }, [])
 
     function ChangeToggleMenu() {
         return setToggleMenu(!toggleMenu);
     }
 
+    const navbarClass = toggleMenu ? styles.active : '';
 
     return (
         <div className={styles.navbar}>
+            <div className={styles.navbar_background}></div>
             <Link className={styles.react_router_link_heading} to="/">
                 <h1 className={styles.navbar_heading}>NILGIRI HOSTEL</h1>
             </Link>
-            {(toggleMenu || screenWidth>1100) && (
-            <ul className={styles.navbar_menu}>
+            {(
+            <ul className={`${styles.navbar_menu} ${navbarClass}`}>
                 <Link className={styles.react_router_link_item} to="/">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Home</li>
                 </Link>
@@ -41,7 +32,7 @@ function Navbar() {
                 <Link className={styles.react_router_link_item} to="/noticeboard">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Notice Board</li>
                 </Link>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLVjpieSUCgByssFVMTrqtFYtrETk6gGz-BbwV8hmxukw86A/viewform" target="_blank">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLVjpieSUCgByssFVMTrqtFYtrETk6gGz-BbwV8hmxukw86A/viewform" target="_blank" rel="noreferrer">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Complaint Form</li>
                 </a>
             </ul>

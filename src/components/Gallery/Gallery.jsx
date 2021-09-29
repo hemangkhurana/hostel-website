@@ -16,7 +16,7 @@ function PhotoGallery() {
         return (
             <div className={styles.photo_card} onClick={() => getImg(props)}>
                 <h1 className={styles.img_heading}>{props.imgName}</h1>
-                <img className={styles.photo} src={props.image} alt="image" />
+                <img className={styles.photo} src={props.image} alt="PersonImage"/>
             </div>
         );
     }
@@ -28,7 +28,7 @@ function PhotoGallery() {
             <div className={`${styles.model} ${modelClass}`}>
                 <i class="fas fa-times" onClick={() => setModel(false)}></i>
                 <h1 className={styles.model_imgName}>{tempImgName}</h1>
-                <img className={styles.model_img} src={tempImgSrc}/>
+                <img className={styles.model_img} src={tempImgSrc} alt="PersonImage"/>
             </div>
             <div className={styles.photo_container}>
                 {GalleryData.map(PhotoCard)}
