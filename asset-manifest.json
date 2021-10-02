@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/hostel-website/static/css/main.7ef449bd.chunk.css",
-    "main.js": "/hostel-website/static/js/main.debb247b.chunk.js",
-    "main.js.map": "/hostel-website/static/js/main.debb247b.chunk.js.map",
-    "runtime-main.js": "/hostel-website/static/js/runtime-main.958ba3e0.js",
-    "runtime-main.js.map": "/hostel-website/static/js/runtime-main.958ba3e0.js.map",
-    "static/js/2.0bda9cea.chunk.js": "/hostel-website/static/js/2.0bda9cea.chunk.js",
-    "static/js/2.0bda9cea.chunk.js.map": "/hostel-website/static/js/2.0bda9cea.chunk.js.map",
+    "main.css": "/hostel-website/static/css/main.8772b973.chunk.css",
+    "main.js": "/hostel-website/static/js/main.c7f17315.chunk.js",
+    "main.js.map": "/hostel-website/static/js/main.c7f17315.chunk.js.map",
+    "runtime-main.js": "/hostel-website/static/js/runtime-main.24dea5cc.js",
+    "runtime-main.js.map": "/hostel-website/static/js/runtime-main.24dea5cc.js.map",
+    "static/js/2.963f33ec.chunk.js": "/hostel-website/static/js/2.963f33ec.chunk.js",
+    "static/js/2.963f33ec.chunk.js.map": "/hostel-website/static/js/2.963f33ec.chunk.js.map",
     "index.html": "/hostel-website/index.html",
-    "static/css/main.7ef449bd.chunk.css.map": "/hostel-website/static/css/main.7ef449bd.chunk.css.map",
-    "static/js/2.0bda9cea.chunk.js.LICENSE.txt": "/hostel-website/static/js/2.0bda9cea.chunk.js.LICENSE.txt"
+    "static/css/main.8772b973.chunk.css.map": "/hostel-website/static/css/main.8772b973.chunk.css.map",
+    "static/js/2.963f33ec.chunk.js.LICENSE.txt": "/hostel-website/static/js/2.963f33ec.chunk.js.LICENSE.txt",
+    "static/media/Hemang.jpg": "/hostel-website/static/media/Hemang.e9baa775.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.958ba3e0.js",
-    "static/js/2.0bda9cea.chunk.js",
-    "static/css/main.7ef449bd.chunk.css",
-    "static/js/main.debb247b.chunk.js"
+    "static/js/runtime-main.24dea5cc.js",
+    "static/js/2.963f33ec.chunk.js",
+    "static/css/main.8772b973.chunk.css",
+    "static/js/main.c7f17315.chunk.js"
   ]
 }
