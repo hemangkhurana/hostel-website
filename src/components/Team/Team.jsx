@@ -24,7 +24,6 @@ function Team() {
             <div className={styles.Team_container}>
                 {CaptianAndViceCaptianData.map(TeamCard)}
             </div>
-            <hr className={styles.hr2}/>
         </div>
     );
 }

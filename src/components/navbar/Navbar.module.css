@@ -52,6 +52,10 @@
     z-index: 99;
 }
 
+.navbar_menu a {
+    text-decoration: none;
+}
+
 
 .navbar_item {
     position: relative;
@@ -105,7 +109,7 @@
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         right: 0;
-        top: -200px;
+        top: -150px;
         padding-bottom: 15px;
         position: absolute;
         transition: all 0.4s ease;
@@ -187,7 +191,7 @@
         height: 40px;
     }
     .navbar_menu {
-        top: -150px;
+        top: -100px;
     }
     .navbar_menu.active {
         top: 75px;

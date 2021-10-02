@@ -6,8 +6,11 @@ import CalendarCard from "./CalendarCard.jsx";
 
 function Calendar() {
     return (
-        <div className={styles.calendar} id="calendar">
-            {CalendarData.map(CalendarCard)}
+        <div className={styles.calendar}>
+            <h1 className={styles.heading1}>Event Calendar</h1>
+            <div className={styles.calendar_container} id="calendar">
+                {CalendarData.map(CalendarCard)}
+            </div>
         </div>
     );
 }

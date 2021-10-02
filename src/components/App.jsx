@@ -5,6 +5,7 @@ import Navbar from "./navbar/Navbar";
 import Contact from "./Team/Team";
 import Gallery from "./Gallery/Gallery";
 import Notice from "./Notice/Notice";
+import Footer from "./Footer/Footer";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/gallery" exact component={Gallery}/>
                     <Route path="/noticeboard" exact component={Notice}/>
                 </Switch>
+                <Footer/>
         </Router>
     );
 }

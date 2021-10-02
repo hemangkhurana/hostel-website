@@ -29,12 +29,12 @@ function Navbar() {
                 <Link className={styles.react_router_link_item} to="/gallery">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Gallery</li>
                 </Link>
-                <Link className={styles.react_router_link_item} to="/noticeboard">
+                {/* <Link className={styles.react_router_link_item} to="/noticeboard">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Notice Board</li>
                 </Link>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLVjpieSUCgByssFVMTrqtFYtrETk6gGz-BbwV8hmxukw86A/viewform" target="_blank" rel="noreferrer">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Complaint Form</li>
-                </a>
+                </a> */}
             </ul>
             )}
             <div className={styles.btn} onClick={ChangeToggleMenu}>

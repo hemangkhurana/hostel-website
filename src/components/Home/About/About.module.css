@@ -6,7 +6,7 @@
 }
 
 .about {
-    margin: 15px 20px;
+    margin: 0 20px 15px 20px;
     position: relative;
     display: flex;
     flex-direction: row;
