@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/hostel-website/static/css/main.8772b973.chunk.css",
-    "main.js": "/hostel-website/static/js/main.c7f17315.chunk.js",
-    "main.js.map": "/hostel-website/static/js/main.c7f17315.chunk.js.map",
+    "main.js": "/hostel-website/static/js/main.6fa57042.chunk.js",
+    "main.js.map": "/hostel-website/static/js/main.6fa57042.chunk.js.map",
     "runtime-main.js": "/hostel-website/static/js/runtime-main.24dea5cc.js",
     "runtime-main.js.map": "/hostel-website/static/js/runtime-main.24dea5cc.js.map",
-    "static/js/2.963f33ec.chunk.js": "/hostel-website/static/js/2.963f33ec.chunk.js",
-    "static/js/2.963f33ec.chunk.js.map": "/hostel-website/static/js/2.963f33ec.chunk.js.map",
+    "static/js/2.a99551c7.chunk.js": "/hostel-website/static/js/2.a99551c7.chunk.js",
+    "static/js/2.a99551c7.chunk.js.map": "/hostel-website/static/js/2.a99551c7.chunk.js.map",
     "index.html": "/hostel-website/index.html",
     "static/css/main.8772b973.chunk.css.map": "/hostel-website/static/css/main.8772b973.chunk.css.map",
-    "static/js/2.963f33ec.chunk.js.LICENSE.txt": "/hostel-website/static/js/2.963f33ec.chunk.js.LICENSE.txt",
+    "static/js/2.a99551c7.chunk.js.LICENSE.txt": "/hostel-website/static/js/2.a99551c7.chunk.js.LICENSE.txt",
     "static/media/Hemang.jpg": "/hostel-website/static/media/Hemang.e9baa775.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.24dea5cc.js",
-    "static/js/2.963f33ec.chunk.js",
+    "static/js/2.a99551c7.chunk.js",
     "static/css/main.8772b973.chunk.css",
-    "static/js/main.c7f17315.chunk.js"
+    "static/js/main.6fa57042.chunk.js"
   ]
 }
