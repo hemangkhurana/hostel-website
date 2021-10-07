@@ -16,7 +16,7 @@ function TeamCard(props) {
                 <a className={styles.phone} href="tel: {props.phone}">{props.phone}</a>
                 <a className={styles.mail} href="mailto: {props.mail}">{props.mail}</a>
             </div>
-            <img src={props.src} alt="Image" className={styles.Card_img}/>
+            <img src={props.src} alt="PersonImage" className={styles.Card_img}/>
         </div>
     );
 }

@@ -1,22 +1,22 @@
 const NoticeBoardData = [
     {
         index: 1,
-        displayName: "Ahjhjhfbdbjh kjsbfajb  jhgjbjhgug jhgjh jkdhckbjcb",
-        url: "jdnd",
+        displayName: "Hostel Complaint Form",
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSdLVjpieSUCgByssFVMTrqtFYtrETk6gGz-BbwV8hmxukw86A/viewform",
     },
     {
         index: 2,
-        displayName: "Ahjhjhfbdbjh kjsbfajb  jhgjbjhgug jhgjh jkdhckbjcb",
+        displayName: "Hostel Complaint Formb",
         url: "jdnd",
     },
     {
         index: 3,
-        displayName: "Ahjhjhfbdbjh kjsbfajb  jhgjbjhgug jhgjh jkdhckbjcb",
+        displayName: "Ahjhjhfbdbjh kjsbfajb  jhgjbjhgug jhgjh",
         url: "jdnd",
     },
     {
         index: 4,
-        displayName: "Ahjhjhfbdbjh kjsbfajb  jhgjbjhgug jhgjh jkdhckbjcb",
+        displayName: "Ahjhjhfbdbjh kjsbfajb  jhgjbjhgug jhgjh jkdhckbjcbk jjfhjgd fjhdgfjhbdfjgh jhfjbjfgdjhb vfjhdbfdhvfjhv",
         url: "jdnd",
     },
     {
