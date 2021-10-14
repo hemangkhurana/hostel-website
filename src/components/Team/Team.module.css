@@ -6,22 +6,22 @@
 }
 
 .heading1 {
-    padding-top: 30px;
-    font-size: 50px;
+    padding-top: 50px;
+    font-size: 45px;
     text-align: center;
 }
 
 .hr1 { 
     /* padding-top: 5px; */
     padding-bottom: 10px;
-    margin: 0 10%;
+    margin: 0 10% 40px 10%;
     border: #fff;
     border-bottom: 3px solid black;
 }
 
 .heading2 {
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 

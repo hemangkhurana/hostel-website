@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Calendar.module.css";
-import CalendarData from "./CalendarData.jsx";
+// import CalendarData from "./CalendarData.jsx";
 import CalendarCard from "./CalendarCard.jsx";
 import { useState , useEffect } from "react" ; 
 // import getEventData from "../../../googleSheet";
@@ -21,9 +21,9 @@ function Calendar() {
                 const col =  row.split('\t')  ; 
                 const temp = {
                     event : col[0] , 
-                    description : col[3] , 
                     date : col[1]  , 
-                    time : col[2]  
+                    time : col[2]  ,
+                    description : col[3]
                 } ; 
                 Events.push(temp) ; 
              })
@@ -32,8 +32,7 @@ function Calendar() {
              console.log(Events)  ; 
           })
     
-       
-
+    
     } , []) ; 
     return (
         <div className={styles.calendar}>

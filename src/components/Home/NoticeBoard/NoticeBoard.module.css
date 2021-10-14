@@ -6,6 +6,7 @@
 }
 
 .noticeBoard {
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #eee;
@@ -37,6 +38,7 @@
 } */
 
 .heading1 {
+    font-weight: 700;
     padding: 20px 0 20px 0;
     align-self: center;
     display: flex;

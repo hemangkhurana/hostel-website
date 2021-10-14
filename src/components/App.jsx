@@ -4,7 +4,6 @@ import Home from "./Home/Home";
 import Navbar from "./navbar/Navbar";
 import Contact from "./Team/Team";
 import Gallery from "./Gallery/Gallery";
-import Notice from "./Notice/Notice";
 import Footer from "./Footer/Footer";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
                     <Route path="/" exact component={Home}/>
                     <Route path="/team" exact component={Contact}/>
                     <Route path="/gallery" exact component={Gallery}/>
-                    <Route path="/noticeboard" exact component={Notice}/>
                 </Switch>
                 <Footer/>
         </Router>

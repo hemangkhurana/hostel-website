@@ -1,51 +1,51 @@
 const SecretaryData = [
     {
-        name: "Hemang",
-        position: "Position of Responsibility",
-        phone: "+919416020601",
-        mail: "hemangkhurana@gmail.com",
+        name: "Asim Rajvanshi",
+        position: "House Secrtory",
+        phone: "+919717224396",
+        mail: "ee3180531@iitd.ac.in",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        src: require("../images/Hemang.jpg").default
+        src: require("../images/Hemang_Badminton (1).jpg").default
     },
     {
-        name: "a",
-        position: "Position of Responsibility",
-        phone: "+919344646441",
-        mail: "alpha@gmail.com",
+        name: "Arunesh Singh",
+        position: "Mess Secratory",
+        phone: "+91931912177",
+        mail: "ce1180089@iitd.ac.in",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        src: require("../images/Hemang.jpg").default
+        src: require("../images/Hemang_Badminton (1).jpg").default
     },
     {
-        name: "b",
-        position: "Position of Responsibility",
-        phone: "+919489646844",
-        mail: "beta@gmail.com",
+        name: "Divyanshu Bujethia",
+        position: "Maintainance Secratory",
+        phone: "+918104522581",
+        mail: "ce1190239@iitd.ac.in",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        src: require("../images/Hemang.jpg").default
+        src: require("../images/Hemang_Badminton (1).jpg").default
     },
     {
-        name: "c",
-        position: "Position of Responsibility",
-        phone: "+919869768875",
-        mail: "gama@gmail.com",
+        name: "Shantanu Meena",
+        position: "Sports Secratory",
+        phone: "+919530458499",
+        mail: "ce1190299@iitd.ac.in",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        src: require("../images/Hemang.jpg").default
+        src: require("../images/Hemang_Badminton (1).jpg").default
     },
     {
-        name: "d",
-        position: "Position of Responsibility",
-        phone: "+915788758785",
-        mail: "delta@gmail.com",
+        name: "Aditya Vishal",
+        position: "Cultural Secratory",
+        phone: "+91339906320",
+        mail: "ce1190210@iitd.ac.in",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        src: require("../images/Hemang.jpg").default
+        src: require("../images/Hemang_Badminton (1).jpg").default
     },
     {
-        name: "e",
-        position: "Position of Responsibility",
-        phone: "+9189894664844",
-        mail: "sigma@gmail.com",
+        name: "Hriday Gupta",
+        position: "SAC Secortory",
+        phone: "+919899944350",
+        mail: "me1190249@iitd.ac.in",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        src: require("../images/Hemang.jpg").default
+        src: require("../images/Hemang_Badminton (1).jpg").default
     },
 ]
 

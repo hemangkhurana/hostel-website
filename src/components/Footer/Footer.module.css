@@ -6,6 +6,7 @@
 }
 
 .footer_container {
+    font-family: 'Nunito', sans-serif;
     padding: 0 50px;
     display: flex;
     /* flex-direction: column; */
