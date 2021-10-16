@@ -22,7 +22,7 @@
 
 .heading1 {
     font-size: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .calendar_container {
@@ -63,7 +63,7 @@
 .item_p {
     text-align: justify;
     font-size: 16px;
-    margin: 5px 10px 0 10px;
+    margin: 0 10px 10px 10px;
 }
 
 .item_date {

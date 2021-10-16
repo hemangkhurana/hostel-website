@@ -10,17 +10,15 @@
     font-size: 45px;
     text-align: center;
 }
-
 .hr1 { 
-    /* padding-top: 5px; */
     padding-bottom: 10px;
     margin: 0 10% 40px 10%;
     border: #fff;
     border-bottom: 3px solid black;
 }
-
 .heading2 {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     font-size: 40px;
     text-align: center;
 }
@@ -28,151 +26,86 @@
 .hr2 { 
     width: 40%;
     border: #fff;
-    margin: 5px auto 0 auto;
-    border-bottom: 2px dashed grey;    
+    margin: 5px auto 40px auto;  
+    border-bottom: 2px dashed grey;
 }
 
 .Team_container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .TeamCard {
-    height: 300px;
-    width: 500px;
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    border-radius: 5px;
-    margin: 50px;
-}
-
-.TeamCard_top {
-    height: 100px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    background: #ddd;
-    padding: 15px 0 0 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.position {
-    margin-top: 10px;
-}
-
-.TeamCard_mid {
-    height: 130px;
-    /* height: 0; */
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    background: #eee;
-    padding: 10px 0 0 20px;
-}
-
-.TeamCard_bottom {
-    height: 70px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    background: #eee;
-    padding: 10px 0 0 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    justify-content: center;
+    width: 33%;
+    margin: 50px 0;
 }
 
 .Card_img {
-    position: absolute;
-    height: 140px;
-    width: 140px;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    align-self: center;
     border-radius: 50%;
-    border: 7px solid #fff;
-    margin-top: 30px;
-    margin-left: 330px;
 }
 
-.description {
-    margin-right: 200px;
-    line-height: 1.6rem;
+.name {
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+    padding-top: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_details {
+    display: flex;
+    padding: 10px 40% 0 40%;
+    justify-content:space-around;
+    align-items: center;
+    /* flex-direction: column; */
 }
 
 .phone {
-    color: #000099;
-    margin-bottom: 5px;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mail {
-    color: #000099;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    color: black;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1100px) {
-    .heading1 {
-        font-size: 30px;
-    }
-
-    .heading2 {
-        font-size: 25px;
-    }
-
     .TeamCard {
-        height: 240px;
-        width: 350px;
-        margin: 20px;
+        width: 50%;
     }
+}
 
-    .TeamCard_top {
-        height: 80px;
-        width: 350px;
-        padding-left: 10px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-
-    .TeamCard_mid {
-        height: 104px;
-        width: 350px;
-        padding-left: 10px;
-    }
-
-    .TeamCard_bottom {
-        height: 56px;
-        width: 350px;
-        padding-left: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-
-    .Card_img {
-        height: 100px;
-        width: 100px;
-        margin-left: 240px;
-        margin-top: 24px;
-        border: 4px solid #fff;
-    }
-
-    .name {
-        font-size: 25px;
-    }
-
-    .position {
-        font-size: 15px;
-    }
-
-    .description {
-        margin-right: 100px;
-        font-size: 0.8rem;
-        line-height: 1.2rem;
-    }
-
-    .phone {
-        font-size: 0.8rem;
-    }
-    
-    .mail {
-        font-size: 0.8rem;
+@media screen and (max-width: 480px) {
+    .TeamCard {
+        width: 100%;
     }
 }
 
