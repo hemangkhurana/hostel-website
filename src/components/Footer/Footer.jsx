@@ -6,8 +6,12 @@ function Footer() {
         <div className={styles.footer_container}>
             <div className={styles.follow}>
                 <span>Follow Us:</span>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram-square"></i>
+                <a href="https://www.instagram.com/nilgiri.cultu/" target="_blank" rel="noreferrer">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com/nilgiri.cultu/" target="_blank" rel="noreferrer">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
             </div>
             <b>|</b>
             <div className={styles.copyright}>
@@ -15,7 +19,9 @@ function Footer() {
             </div>
             <b>|</b>
             <div className={styles.contactUs}>
-                Contact Us
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkWiP07wpf6tFObzV6gFO_n0vQAWMp4Cjz9Y-4b0zbhPH7Xw/viewform" target="_blank" rel="noreferrer">
+                    Contact Us
+                </a>
             </div>
         </div>
     );

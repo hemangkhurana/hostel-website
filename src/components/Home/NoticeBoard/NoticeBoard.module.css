@@ -65,7 +65,8 @@
 }
 
 .noticeBoardCard:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
+    font-weight: 700;
 }
 
 

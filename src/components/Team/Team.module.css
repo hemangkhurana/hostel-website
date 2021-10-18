@@ -44,12 +44,16 @@
     margin: 50px 0;
 }
 
+
 .Card_img {
-    position: relative;
-    height: 150px;
     width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    background-clip: padding-box;
+    float: left;
+    background-size: cover;
+    background-position: center center;
     align-self: center;
-    border-radius: 50%;
 }
 
 .name {
