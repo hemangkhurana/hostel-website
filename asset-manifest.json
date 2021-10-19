@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/hostel-website/static/css/main.b33c6d3a.chunk.css",
-    "main.js": "/hostel-website/static/js/main.c84a8c3f.chunk.js",
-    "main.js.map": "/hostel-website/static/js/main.c84a8c3f.chunk.js.map",
+    "main.css": "/hostel-website/static/css/main.f835e97c.chunk.css",
+    "main.js": "/hostel-website/static/js/main.d9434893.chunk.js",
+    "main.js.map": "/hostel-website/static/js/main.d9434893.chunk.js.map",
     "runtime-main.js": "/hostel-website/static/js/runtime-main.24dea5cc.js",
     "runtime-main.js.map": "/hostel-website/static/js/runtime-main.24dea5cc.js.map",
     "static/js/2.259e892f.chunk.js": "/hostel-website/static/js/2.259e892f.chunk.js",
     "static/js/2.259e892f.chunk.js.map": "/hostel-website/static/js/2.259e892f.chunk.js.map",
     "index.html": "/hostel-website/index.html",
-    "static/css/main.b33c6d3a.chunk.css.map": "/hostel-website/static/css/main.b33c6d3a.chunk.css.map",
+    "static/css/main.f835e97c.chunk.css.map": "/hostel-website/static/css/main.f835e97c.chunk.css.map",
     "static/js/2.259e892f.chunk.js.LICENSE.txt": "/hostel-website/static/js/2.259e892f.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/hostel-website/static/media/1.faf72767.jpg",
     "static/media/2.jpg": "/hostel-website/static/media/2.2e470a76.jpg",
@@ -44,7 +44,7 @@
     "static/media/GuardDesk.jpg": "/hostel-website/static/media/GuardDesk.4ee83979.jpg",
     "static/media/Gym.jpg": "/hostel-website/static/media/Gym.02273f3c.jpg",
     "static/media/Hardik_hockey.jpeg": "/hostel-website/static/media/Hardik_hockey.e547c2a6.jpeg",
-    "static/media/Harshit_ISC.jpeg": "/hostel-website/static/media/Harshit_ISC.e387a4e5.jpeg",
+    "static/media/Harshit_ISC.jpeg": "/hostel-website/static/media/Harshit_ISC.37705dc9.jpeg",
     "static/media/Hemang_Badminton.jpeg": "/hostel-website/static/media/Hemang_Badminton.55da377a.jpeg",
     "static/media/Hemant_Cricket.jpeg": "/hostel-website/static/media/Hemant_Cricket.c37d1844.jpeg",
     "static/media/HostelPark.jpg": "/hostel-website/static/media/HostelPark.2c877e8b.jpg",
@@ -84,7 +84,7 @@
   "entrypoints": [
     "static/js/runtime-main.24dea5cc.js",
     "static/js/2.259e892f.chunk.js",
-    "static/css/main.b33c6d3a.chunk.css",
-    "static/js/main.c84a8c3f.chunk.js"
+    "static/css/main.f835e97c.chunk.css",
+    "static/js/main.d9434893.chunk.js"
   ]
 }
