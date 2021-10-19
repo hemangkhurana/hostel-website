@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+.gallery {
+    font-family: 'Roboto', sans-serif;
+}
+
 .heading1 {
     font-size: 40px;
     padding-top: 50px;

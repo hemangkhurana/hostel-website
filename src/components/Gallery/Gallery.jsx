@@ -23,7 +23,7 @@ function PhotoGallery() {
     const modelClass = model? styles.open : '';
     return (
         <div className={styles.gallery}>
-            <h1 className={styles.heading1}>Image Gallery</h1>
+            <h1 className={styles.heading1}>IMAGE GALLERY</h1>
             <hr className={styles.hr1}/>
             <div className={`${styles.model} ${modelClass}`}>
                 <i class="fas fa-times" onClick={() => setModel(false)}></i>

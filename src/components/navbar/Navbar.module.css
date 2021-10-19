@@ -22,8 +22,7 @@
     background: #eee;
     height: 90px;
     width: 100%;
-    align-items: center;
-    font-family: 'Merriweather Sans', sans-serif;    
+    align-items: center;  
 }
 
 .navbar_background {
@@ -31,15 +30,19 @@
 }
 
 .navbar_heading {
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     color:#000000;
     min-width: 400px;
     padding-left: 50px;
     font-size: 50px;
     z-index: 990;
+    font-weight: ;
 }
 
 .navbar_menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     display: flex;
     position: relative;
     justify-content: space-between;

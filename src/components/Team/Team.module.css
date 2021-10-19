@@ -5,9 +5,13 @@
     scroll-behavior: smooth;
 }
 
+.team {
+    font-family: 'Roboto', sans-serif;
+}
+
 .heading1 {
     padding-top: 50px;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
 }
 .hr1 { 
@@ -32,6 +36,7 @@
 
 .Team_container {
     display: flex;
+    justify-content: space-around   ;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -49,10 +54,6 @@
     width: 150px;
     height: 150px;
     border-radius: 150px;
-    background-clip: padding-box;
-    float: left;
-    background-size: cover;
-    background-position: center center;
     align-self: center;
 }
 
@@ -62,9 +63,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
 }
 
 .position {
+    font-size: 22px;
     padding-top: 5px;
     position: relative;
     display: flex;

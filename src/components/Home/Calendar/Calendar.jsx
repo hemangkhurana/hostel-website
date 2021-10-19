@@ -33,7 +33,8 @@ function Calendar() {
           })
     
     
-    } , []) ; 
+    } , []) ;
+
     return (
         <div className={styles.calendar}>
             <h1 className={styles.heading1}>Event Calendar</h1>

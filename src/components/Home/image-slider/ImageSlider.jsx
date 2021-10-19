@@ -24,7 +24,7 @@ function ImageSlider() {
             {SliderData.map(function(item, index) {
                 return(
                     <div key={index} className={styles.slide} style={{transform:`translateX(${x}%)`}}>
-                        {<img className={styles.img} src={item.image} alt="image"/>}
+                        {<img className={styles.img} src={item.image} alt="Img"/>}
                     </div>
                 );
             })}

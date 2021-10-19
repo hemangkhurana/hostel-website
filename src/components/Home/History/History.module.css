@@ -6,7 +6,7 @@
 }
 
 .history {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 40px 20px;
     position: relative;
     display: flex;
@@ -18,8 +18,10 @@
 }
 
 .heading {
+    font-size: 35px;
     padding-bottom: 2px;
     text-align: end;
+    font-weight: 700;
 }
 
 .horizontal_line {

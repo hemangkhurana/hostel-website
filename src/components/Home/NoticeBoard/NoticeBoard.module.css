@@ -6,7 +6,7 @@
 }
 
 .noticeBoard {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #eee;
@@ -37,8 +37,23 @@
     height: 0;
 } */
 
+.noticeBoard_body::-webkit-scrollbar {
+    width: 10px;
+}
+
+.noticeBoard_body::-webkit-scrollbar-track {
+    background: #eee; 
+}
+   
+.noticeBoard_body::-webkit-scrollbar-thumb {
+    background: #ccc; 
+}
+  
+.noticeBoard_body::-webkit-scrollbar-thumb:hover {
+    background: #bbb; 
+}
+
 .heading1 {
-    font-weight: 700;
     padding: 20px 0 20px 0;
     align-self: center;
     display: flex;

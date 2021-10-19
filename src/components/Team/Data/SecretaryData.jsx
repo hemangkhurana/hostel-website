@@ -1,37 +1,37 @@
 const SecretaryData = [
     {
         name: "Asim Rajvanshi",
-        position: "House Secrtory",
+        position: "House Secretary",
         src: require("../images/Asim_House.jpeg").default
     },
     {
         name: "Arunesh Singh",
-        position: "Mess Secratory",
+        position: "Mess Secretary",
         src: require("../images/Arunesh_Mess.jpeg").default
     },
     {
         name: "Divyanshu Bujethia",
-        position: "Maintainance Secratory",
+        position: "Maintainance Secretary",
         src: require("../images/Divyanshu_Maintainance.jpeg").default
     },
     {
         name: "Shantanu Meena",
-        position: "Sports Secratory",
+        position: "Sports Secretary",
         src: require("../images/Shantanu_Sports.jpeg").default
     },
     {
         name: "Aditya Vishal",
-        position: "Cultural Secratory",
+        position: "Cultural Secretary",
         src: require("../images/Aditya_Cultural.jpeg").default
     },
     {
         name: "Hriday Gupta",
-        position: "SAC Secortory",
+        position: "SAC Secretary",
         src: require("../images/Hriday_SAC.jpeg").default
     },
     {
         name: "Shresth Gupta",
-        position: "Library Secortory",
+        position: "Library Secretary",
         src: require("../images/Shresth_Liberary.jpeg").default
     },
 ]

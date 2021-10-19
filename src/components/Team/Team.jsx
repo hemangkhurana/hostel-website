@@ -7,8 +7,8 @@ import CaptianAndViceCaptianData from "./Data/CaptianAndViceCaptianData";
 
 function Team() {
     return(
-        <div>
-            <h1 className={styles.heading1}>Our Team</h1>
+        <div className={styles.team}>
+            <h1 className={styles.heading1}>OUR TEAM</h1>
             <hr className={styles.hr1}/>
 
             <h2 className={styles.heading2}>Secretary</h2>
