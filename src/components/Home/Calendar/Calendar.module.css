@@ -101,10 +101,10 @@
 
 @media screen and (max-width: 1100px) {
     .calendar {
-        margin: 20px 0;
+        margin: 20px 0 0 0;
         width: 100%;
         border: none;
-        padding: 0 10px;
+        padding: 20px 10px;
     }
 
     .heading1 {
@@ -113,7 +113,38 @@
 }
 
 @media screen and (max-width: 768px) { 
+
+    .calendar {
+        margin: 10px 0 0 0;
+    }
+
     .item_p {
         font-size: 15px;
+    }
+
+    .heading1 {
+        font-size: 32px;
+    }
+
+    .item_h1 {
+        font-size: 28px;
+    }
+
+    .item {
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .item:hover {
+        min-width: 210px;
+        min-height: 210px;
+        max-width: 210px;
+        max-height: 210px;
+    }
+
+    .calendar_container::-webkit-scrollbar {
+        height: 0;
     }
 }

@@ -69,6 +69,9 @@
     .photo_container {
         column-count: 2;
     }
+}
+
+@media screen and (max-width: 768px) {
     .heading1 {
         font-size: 30px;
     }
@@ -80,6 +83,8 @@
         column-count: 1;
     }
 }
+
+
 
 
 /* model */

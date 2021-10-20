@@ -110,6 +110,24 @@ i {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .heading1 {
+        font-size: 30px;
+    }
+
+    .heading2 {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 26px;
+    }
+
+    .position {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .TeamCard {
         width: 100%;

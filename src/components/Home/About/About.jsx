@@ -2,11 +2,12 @@ import React from "react";
 import styles from "./About.module.css";
 
 function About() {
+
     return (
         <div className={styles.about} id="about">
             <img 
                 src="https://media.istockphoto.com/photos/presentation-service-delivery-and-positive-feedback-concept-black-picture-id1261597991?s=612x612" 
-                alt="Image" 
+                alt="Img" 
                 className={styles.about_img}
             />
             <div>

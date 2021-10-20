@@ -20,7 +20,7 @@
     position: relative;
     justify-content: space-between;
     background: #eee;
-    height: 90px;
+    height: 80px;
     width: 100%;
     align-items: center;  
 }
@@ -179,14 +179,14 @@
 
 @media screen and (max-width: 768px) {
     .navbar {
-        height: 80px;
+        height: 65px;
     }
     .navbar_background {
-        height: 80px;
+        height: 65px;
     }
     .navbar_heading {
-        padding-left: 10px;
-        font-size: 32px;
+        padding-left: 5px;
+        font-size: 35px;
         min-width: 300px;
     }
     .navbar_item {
@@ -198,9 +198,9 @@
         top: -100px;
     }
     .navbar_menu.active {
-        top: 75px;
+        top: 65px;
     }
     .btn {
-        margin-right: 10px;
+        margin-right: 5px;
     }
 }

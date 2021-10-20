@@ -46,8 +46,9 @@
     .about {
         margin: 5px;
         border: none;
-        padding: 0;
+        padding: 5px;
         width: 100%;
+        margin: 40px 0;
     }
 
     .about_img {
@@ -55,8 +56,14 @@
     }
 
     .about_description {
-        padding: 5px 10px 0 10px;
+        padding: 0 10px 0 10px;
     }
 
 
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 30px;
+    }
 }

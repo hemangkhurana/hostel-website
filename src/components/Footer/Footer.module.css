@@ -60,3 +60,9 @@ a {
         padding: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contactUs {
+        font-weight: bold;
+    }
+}
