@@ -64,19 +64,13 @@
 
 .item_h1 {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .item_hr {
     border: 1px;
     margin: 10px 0;
     background: #000;
-}
-
-.item_p {
-    text-align: justify;
-    font-size: 16px;
-    margin: 5px 10px 0 10px;
 }
 
 .item_date {
@@ -87,6 +81,28 @@
 .item_time {
     text-align: left;
     margin:0 10px;
+}
+
+.item_p {
+    text-align: left;
+    font-size: 16px;
+    margin: 5px 10px 0 10px;
+}
+
+.item_link {
+    text-align: left;
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00008b;
+}
+
+.item_link:hover {
+    text-decoration: underline;
 }
 
 .item:hover {
@@ -122,12 +138,16 @@
         font-size: 15px;
     }
 
+    .item_link {
+        font-size: 15px;
+    }
+
     .heading1 {
         font-size: 32px;
     }
 
     .item_h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .item {

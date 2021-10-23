@@ -19,7 +19,7 @@ function Footer() {
             </div>
             <b>|</b>
             <div className={styles.contactUs}>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkWiP07wpf6tFObzV6gFO_n0vQAWMp4Cjz9Y-4b0zbhPH7Xw/viewform" target="_blank" rel="noreferrer">
+                <a className={styles.link} href="https://docs.google.com/forms/d/e/1FAIpQLSdkWiP07wpf6tFObzV6gFO_n0vQAWMp4Cjz9Y-4b0zbhPH7Xw/viewform" target="_blank" rel="noreferrer">
                     Contact Us
                 </a>
             </div>

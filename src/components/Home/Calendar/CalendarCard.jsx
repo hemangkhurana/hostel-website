@@ -8,6 +8,7 @@ function CalendarCard(props) {
             <p className={styles.item_date}>{props.date}</p>
             <p className={styles.item_time}>{props.time}</p>
             <p className={styles.item_p}>{props.description}</p>
+            <p className={styles.item_link}><a className={styles.link} href={props.link1} target="_blank" rel="noreferrer">Link</a></p>
         </div>
     );
 }

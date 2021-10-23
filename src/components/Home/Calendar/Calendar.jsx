@@ -23,7 +23,8 @@ function Calendar() {
                     event : col[0] , 
                     date : col[1]  , 
                     time : col[2]  ,
-                    description : col[3]
+                    description : col[3] ,
+                    link1 : col[4] ,
                 } ; 
                 Events.push(temp) ; 
              })
