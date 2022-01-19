@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/hostel-website/static/css/main.1258b1ab.chunk.css",
-    "main.js": "/hostel-website/static/js/main.de5daf09.chunk.js",
-    "main.js.map": "/hostel-website/static/js/main.de5daf09.chunk.js.map",
+    "main.css": "/hostel-website/static/css/main.2cd14cff.chunk.css",
+    "main.js": "/hostel-website/static/js/main.424f6290.chunk.js",
+    "main.js.map": "/hostel-website/static/js/main.424f6290.chunk.js.map",
     "runtime-main.js": "/hostel-website/static/js/runtime-main.24dea5cc.js",
     "runtime-main.js.map": "/hostel-website/static/js/runtime-main.24dea5cc.js.map",
-    "static/js/2.66fcb321.chunk.js": "/hostel-website/static/js/2.66fcb321.chunk.js",
-    "static/js/2.66fcb321.chunk.js.map": "/hostel-website/static/js/2.66fcb321.chunk.js.map",
+    "static/js/2.9fc98725.chunk.js": "/hostel-website/static/js/2.9fc98725.chunk.js",
+    "static/js/2.9fc98725.chunk.js.map": "/hostel-website/static/js/2.9fc98725.chunk.js.map",
     "index.html": "/hostel-website/index.html",
-    "static/css/main.1258b1ab.chunk.css.map": "/hostel-website/static/css/main.1258b1ab.chunk.css.map",
-    "static/js/2.66fcb321.chunk.js.LICENSE.txt": "/hostel-website/static/js/2.66fcb321.chunk.js.LICENSE.txt",
+    "static/css/main.2cd14cff.chunk.css.map": "/hostel-website/static/css/main.2cd14cff.chunk.css.map",
+    "static/js/2.9fc98725.chunk.js.LICENSE.txt": "/hostel-website/static/js/2.9fc98725.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/hostel-website/static/media/1.faf72767.jpg",
     "static/media/2.jpg": "/hostel-website/static/media/2.2e470a76.jpg",
     "static/media/3.jpg": "/hostel-website/static/media/3.934ad6a3.jpg",
     "static/media/4.jpg": "/hostel-website/static/media/4.8d50aceb.jpg",
+    "static/media/AboutImage.png": "/hostel-website/static/media/AboutImage.e60e3a3c.png",
     "static/media/Aditya_Cultural.jpeg": "/hostel-website/static/media/Aditya_Cultural.bab6df7a.jpeg",
     "static/media/Akash_Aquatics.jpeg": "/hostel-website/static/media/Akash_Aquatics.01beebed.jpeg",
     "static/media/Akshat_Football.jpeg": "/hostel-website/static/media/Akshat_Football.0874f14f.jpeg",
@@ -45,6 +46,7 @@
     "static/media/Gym.jpg": "/hostel-website/static/media/Gym.02273f3c.jpg",
     "static/media/Hardik_hockey.jpeg": "/hostel-website/static/media/Hardik_hockey.e547c2a6.jpeg",
     "static/media/Harshit_ISC.jpeg": "/hostel-website/static/media/Harshit_ISC.37705dc9.jpeg",
+    "static/media/HeadingIcon.png": "/hostel-website/static/media/HeadingIcon.630211fc.png",
     "static/media/Hemang_Badminton.jpeg": "/hostel-website/static/media/Hemang_Badminton.55da377a.jpeg",
     "static/media/Hemant_Cricket.jpeg": "/hostel-website/static/media/Hemant_Cricket.c37d1844.jpeg",
     "static/media/HostelPark.jpg": "/hostel-website/static/media/HostelPark.2c877e8b.jpg",
@@ -83,8 +85,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.24dea5cc.js",
-    "static/js/2.66fcb321.chunk.js",
-    "static/css/main.1258b1ab.chunk.css",
-    "static/js/main.de5daf09.chunk.js"
+    "static/js/2.9fc98725.chunk.js",
+    "static/css/main.2cd14cff.chunk.css",
+    "static/js/main.424f6290.chunk.js"
   ]
 }
