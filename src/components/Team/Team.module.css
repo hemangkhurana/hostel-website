@@ -10,7 +10,7 @@
 }
 
 .heading1 {
-    padding-top: 50px;
+    padding-top: 110px;
     font-size: 40px;
     text-align: center;
 }
@@ -36,9 +36,11 @@
 
 .Team_container {
     display: flex;
-    justify-content: space-around   ;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
 }
 
 .TeamCard {

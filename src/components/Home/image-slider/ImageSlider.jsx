@@ -21,6 +21,7 @@ function ImageSlider() {
 
     return (
         <div className={styles.slider}>
+            {/* <img className={styles.logo} src={require("./Images/Logo.png").default} alt="logo" /> */}
             {SliderData.map(function(item, index) {
                 return(
                     <div key={index} className={styles.slide} style={{transform:`translateX(${x}%)`}}>
@@ -28,8 +29,10 @@ function ImageSlider() {
                     </div>
                 );
             })}
-            <button id={styles.goLeft} onClick={goLeft}><i class="fas fa-angle-left"></i></button>
-            <button id={styles.goRight} onClick={goRight}><i class="fas fa-angle-right"></i></button>
+            {/*<button id={styles.goLeft} onClick={goLeft}><i class="fas fa-angle-left"></i></button>
+            <button id={styles.goRight} onClick={goRight}><i class="fas fa-angle-right"></i></button> */}
+            <button id={styles.goLeft} onClick={goLeft}><p className={styles.goLeft_text}>PREV</p></button>
+            <button id={styles.goRight} onClick={goRight}><p className={styles.goRight_text}>NEXT</p></button>
         </div>
     );
 }

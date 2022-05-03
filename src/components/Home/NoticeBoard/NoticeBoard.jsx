@@ -6,7 +6,24 @@ import { useState , useEffect} from "react" ;
 
 function NoticeBoard() {
     const [ NoticeBoardData , setNoticeBoardData] = useState([]) ; 
-   
+
+    // open close notice board
+    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleArrow, setToggleArrow] = useState(false);
+
+    function changeToggleArrow() {
+        return setToggleArrow(!toggleArrow);
+    }
+    function ChangeToggleMenu() {
+        return setToggleMenu(!toggleMenu);
+    }
+
+    const toggleArrowUD = toggleArrow ? styles.yes : styles.no;
+    // const toggleArrowClass = toggleArrow ? {fa-angles-up} : fa-angles-down; 
+    const noticeBoardClass = toggleMenu ? styles.active : '';
+
+
+    // map data from excel sheet
     useEffect( () => {
             console.log("working") ; 
           fetch("https://docs.google.com/spreadsheets/d/1mVEfz2XBOMTWfqHKQ0Hjdwv_Ln3RXFqVGqJtlDfj5rs/export?format=tsv")
@@ -37,8 +54,13 @@ function NoticeBoard() {
     
     } , []) ; 
     return (
-        <div className={styles.noticeBoard}>
-            <div className={styles.heading1}>Notice Board</div>
+        <div className={`${styles.noticeBoard} ${noticeBoardClass}`}>
+            <div className={styles.heading1}>
+                Notice Board
+                <button className={styles.upArrow} onClick={ChangeToggleMenu}><i class="fa-solid fa-circle"></i></button>
+
+                {/* <img className={styles.upArrow} src={require("./arrow-up.png").default} alt="" onClick={ChangeToggleMenu}/> */}
+            </div>
             {/* <hr className={styles.hr}/> */}
             <div className={styles.noticeBoard_body}>
                 {NoticeBoardData.map(NoticeBoardCard)}

@@ -6,11 +6,11 @@ function Footer() {
         <div className={styles.footer_container}>
             <div className={styles.follow}>
                 <span>Follow Us:</span>
-                <a href="https://www.instagram.com/nilgiri.cultu/" target="_blank" rel="noreferrer">
-                    <i class="fab fa-facebook-square"></i>
+                <a href="https://www.instagram.com/nilgiri.house/" target="_blank" rel="noreferrer">
+                    <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/nilgiri.cultu/" target="_blank" rel="noreferrer">
-                    <i class="fab fa-instagram-square"></i>
+                <a href="https://www.instagram.com/nilgiri.house/" target="_blank" rel="noreferrer">
+                <i class="fab fa-instagram"></i>
                 </a>
             </div>
             <b>|</b>

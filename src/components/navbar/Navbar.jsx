@@ -18,7 +18,7 @@ function Navbar() {
             <Link className={styles.react_router_link_heading} to="/">
                 <h1 className={styles.navbar_heading}>NILGIRI HOSTEL</h1>
             </Link>
-            {(
+            
             <ul className={`${styles.navbar_menu} ${navbarClass}`}>
                 <Link className={styles.react_router_link_item} to="/">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Home</li>
@@ -36,7 +36,7 @@ function Navbar() {
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>Complaint Form</li>
                 </a> */}
             </ul>
-            )}
+            
             <div className={styles.btn} onClick={ChangeToggleMenu}>
                 <span className={styles.bar}></span>
                 <span className={styles.bar}></span>

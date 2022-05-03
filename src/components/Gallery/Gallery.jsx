@@ -23,14 +23,15 @@ function PhotoGallery() {
     const modelClass = model? styles.open : '';
     return (
         <div className={styles.gallery}>
-            <h1 className={styles.heading1}>IMAGE GALLERY</h1>
-            <hr className={styles.hr1}/>
+            {/* <h1 className={styles.heading1}>IMAGE GALLERY</h1>
+            <hr className={styles.hr1}/> */}
             <div className={`${styles.model} ${modelClass}`}>
                 <i class="fas fa-times" onClick={() => setModel(false)}></i>
                 <h1 className={styles.model_imgName}>{tempImgName}</h1>
                 <img className={styles.model_img} src={tempImgSrc} alt="PersonImage"/>
             </div>
             <div className={styles.photo_container}>
+                <img className={`${styles.photo} ${styles.gallery_heading}`} src={require("./Images/Heading.png").default} alt="Hostel Images" />
                 {GalleryData.map(PhotoCard)}
             </div>
         </div>

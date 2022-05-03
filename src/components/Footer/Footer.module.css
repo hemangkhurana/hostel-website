@@ -15,7 +15,7 @@
     position: relative;
     height: 50px;
     width: 100%;
-    background: #eee;
+    /* background: #eee; */
     font-size: 1.2rem;
 }
 
@@ -33,11 +33,9 @@
 
 .contactUs {
     padding: 0 30px;
+    font-weight: 600;
 }
 
-.contactUs:hover {
-    font-weight: 700;
-}
 
 .footer_container>b {
     font-size: 1.4rem;
@@ -47,6 +45,12 @@
 .link {
     text-decoration: none;
     color: #000;
+}
+
+.logo {
+    z-index: 9999;
+    height: 40px;
+    width: auto;
 }
 
 @media screen and (max-width: 1100px) {

@@ -5,9 +5,18 @@
     scroll-behavior: smooth;
 }
 
+.logo {
+    position: absolute;
+    margin: -300px 0 0 0;
+    height: 200px;
+    width: auto;
+    z-index: 1;
+}
+
 .slider {
     position: relative;
     width:100%;
+    padding-top: 60px;
     height: 600px;
     display: flex;
     align-items: center;
@@ -52,6 +61,22 @@
     outline: none;
 }
 
+.goLeft_text {
+    color: #000;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transform: rotate(-90deg);
+}
+
+.goRight_text {
+    color: #000;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transform: rotate(90deg);
+}
+
 #goLeft:hover {
     background: rgba(0, 0, 0, 0.288);
     transition: 0.5s;
@@ -64,6 +89,7 @@
     cursor: pointer;
 }
 
+
 #goLeft i {
     font-size: 60px;
 }
@@ -71,10 +97,10 @@
     font-size: 60px;
 }
 
-#goLeft:hover i {
+#goLeft:hover .goLeft_text {
     color:whitesmoke;
 }
-#goRight:hover i {
+#goRight:hover .goRight_text {
     color: whitesmoke;
 }
 

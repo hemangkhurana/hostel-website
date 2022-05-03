@@ -7,86 +7,101 @@
 
 
 .calendar {
-    font-family: 'Nunito', sans-serif;
     position: relative;
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
     /* border: 2px solid #000; */
-    padding: 10px 20px 20px 0;
+    padding: 10px 20px 20px 20px;
     cursor: pointer;
 }
 
+.heading_icon {
+    padding: 10px 0 10px 0;
+    height: auto;
+    width: 100px;
+}
+
 .heading1 {
-    font-size: 40px;
-    padding-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 40px;
 }
 
 .calendar_container {
     position: relative;
-    height: 250px;
+    height: 270px;
     display: flex;
     overflow-x: scroll;
     width: 100%;
+    /* margin-bottom: 10px; */
 }
 
 .calendar_container::-webkit-scrollbar {
     height: 10px;
+    background: #ababab;
 }
 
 .calendar_container::-webkit-scrollbar-track {
-    background: #eee; 
+    background: #bbb; 
 }
    
 .calendar_container::-webkit-scrollbar-thumb {
-    background: #ccc; 
+    background: #909090; 
 }
   
 .calendar_container::-webkit-scrollbar-thumb:hover {
-    background: #bbb; 
+    background: #808080; 
 }
 
 
 .item {
-    min-width: 220px;
+    min-width: 350px;
     min-height: 220px;
-    max-width: 220px;
+    max-width: 350px;
     max-height: 220px;
-    text-align: center;
-    background: #eee;
-    margin: 0 5px;
-    border-radius: 10px;
+    background: #606060;
+    margin: 0 30px;
+    border-radius: 25px;
     transition: 0.4s ease;
+    padding: 0 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
+
 
 .item_h1 {
-    margin-top: 10px;
-    font-size: 25px;
+    margin-top: 15px;
+    font-size: 30px;
 }
 
-.item_hr {
-    border: 1px;
-    margin: 10px 0;
-    background: #000;
+
+.item_club {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #c4c4c6;
 }
 
-.item_date {
-    text-align: left;
-    margin: 10px 0 0 10px;
+.item_description_div {
+    height: 55px;
+    /* overflow-y: scroll; */
+    
 }
 
-.item_time {
-    text-align: left;
-    margin:0 10px;
+.item_description_div::-webkit-scrollbar {
+    height: 0;
+    width: 0;
 }
 
-.item_p {
-    text-align: left;
+.item_description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     font-size: 16px;
-    margin: 5px 10px 0 10px;
+    margin-top: 10px;
+    color: #fff;
 }
 
 .item_link {
@@ -96,24 +111,82 @@
 }
 
 .link {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
     text-decoration: none;
-    font-weight: bold;
-    color: #00008b;
+    color: #fff;
+}
+
+.link:hover {
+    color: #bbb;
 }
 
 .item_link:hover {
     text-decoration: underline;
 }
 
-.item:hover {
-    min-width: 230px;
-    min-height: 230px;
-    max-width: 230px;
-    max-height: 230px;
-    transition: 0.4s ease;
-    padding: 5px;
-    background: #ddd;
+
+.item_timings {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    height: 60px;
+    width: 240px;
+    margin-left: -40px;
+    background-color: #303030;
+    border-radius: 30px;
+    color: #fff;
 }
+
+.item_date {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.item_month_and_year {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin-left: 3px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_vl {
+    height: 40px;
+    width: 2px;
+    background-color: #fff;
+    margin: 0 10px;
+    /* border: 1px solid #fff; */
+}
+
+.item_time_div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    /* margin:0 10px; */
+}
+
+.item_time {
+    padding-left: 5px;
+}
+
+/* .item:hover {
+    min-width: 354px;
+    min-height: 224px;
+    max-width: 354px;
+    max-height: 224px;
+    transition: 0.4s ease;
+    padding: 2px 22px;
+    background: #606060;
+} */
 
 @media screen and (max-width: 1100px) {
     .calendar {

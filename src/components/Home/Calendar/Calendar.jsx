@@ -20,11 +20,15 @@ function Calendar() {
              rows.forEach( row => {
                 const col =  row.split('\t')  ; 
                 const temp = {
-                    event : col[0] , 
-                    date : col[1]  , 
-                    time : col[2]  ,
-                    description : col[3] ,
-                    link1 : col[4] ,
+                    event : col[0] ,
+                    club :col[1] ,
+                    date : col[2] ,
+                    month : col[3] ,
+                    year : col[4] , 
+                    startTime : col[5] ,
+                    endTime : col[6] ,
+                    description : col[7] ,
+                    link1 : col[8] ,
                 } ; 
                 Events.push(temp) ; 
              })
@@ -38,6 +42,7 @@ function Calendar() {
 
     return (
         <div className={styles.calendar}>
+            <img className={styles.heading_icon} src = {require("./HeadingIcon.png").default} alt="Img"/>
             <h1 className={styles.heading1}>Event Calendar</h1>
             <div className={styles.calendar_container} id="calendar">
                 {EventData.map(CalendarCard)}
