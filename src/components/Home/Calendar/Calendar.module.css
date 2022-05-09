@@ -87,7 +87,7 @@
 
 .item_description_div {
     height: 55px;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     
 }
 
@@ -237,7 +237,7 @@
         max-height: 210px;
     }
 
-    .calendar_container::-webkit-scrollbar {
+    /* .calendar_container::-webkit-scrollbar {
         height: 0;
-    }
+    } */
 }

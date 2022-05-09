@@ -93,12 +93,15 @@
     margin-bottom: 2px;
 }
 
+
+
+
 @media screen and (max-width: 1100px) {
     
     .navbar_background {
         display: flex;
         background: #eee;
-        height: 100px;
+        height: 70px;
         width: 100%;
         position: absolute;
         z-index: 990;
@@ -115,7 +118,7 @@
         border-bottom-left-radius: 0;
         right: 0;
         top: -150px;
-        padding-bottom: 15px;
+        padding: 0 0 5px 0;
         position: absolute;
         transition: all 0.4s ease;
         z-index: 99;
@@ -124,7 +127,7 @@
 
     .navbar_menu.active {
         /* left:0; */
-        top: 95px;
+        top: 60px;
         transition: all 0.4s ease;
     }
 
@@ -178,9 +181,13 @@
     }
 }
 
+
+
+
 @media screen and (max-width: 768px) {
     .navbar {
         height: 65px;
+
     }
     .navbar_background {
         height: 65px;
@@ -199,7 +206,7 @@
         top: -100px;
     }
     .navbar_menu.active {
-        top: 65px;
+        top: 55px;
     }
     .btn {
         margin-right: 5px;

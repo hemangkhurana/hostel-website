@@ -82,6 +82,9 @@
     /* font-weight: 1000; */
     /* text-decoration: none; */
 }
+.upArrow:hover {
+    cursor: pointer;
+}
 
 .hr {
     padding-top: 2px;
@@ -116,7 +119,7 @@
 
 @media screen and (max-width: 1100px) {
     .noticeBoard {
-        /* display: none; */
+        display: none;
         width: 95%;
         /* align-self: center; */
         padding: 10px;

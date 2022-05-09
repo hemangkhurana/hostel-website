@@ -35,7 +35,7 @@
 
 .heading {
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 38px;
     padding-bottom: 2px;
     font-weight: 700;
@@ -65,19 +65,32 @@
         margin: 40px 0;
     }
 
+    .about_body {
+        width: 65%;
+        padding-right: none;
+    }
+
     .about_img {
-        display: none;
+        /* display: none; */
+        padding-right: 60px;
+        height: 120px;
     }
-
-    .about_description {
-        padding: 0 10px 0 10px;
-    }
-
 
 }
 
 @media screen and (max-width: 768px) {
+
+    .about_img {
+        display: none;
+    }
+    .about_body {
+        padding: 0;
+        width: 90%;
+    }
     .heading {
         font-size: 30px;
+    }
+    .about_description {
+        font-size: 18px;
     }
 }
