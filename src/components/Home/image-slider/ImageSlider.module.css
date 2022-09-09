@@ -16,12 +16,13 @@
 .slider {
     position: relative;
     width:100%;
-    padding-top: 60px;
+    padding-top: 70px;
     height: 600px;
     display: flex;
     align-items: center;
     transition: 0.5s;
     overflow: hidden;
+
 }
 
 .slide {
@@ -35,56 +36,62 @@
 }
 
 #goLeft {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
     position: absolute;
-    left: 0;
-    transition: translateY(-50%);
-    width: 6%;
-    height: 100%;
+    left: -1px;
+    /* transition: translateY(-50%); */
+    width: 5.5%;
+    height: 300px;
     background: none;
     border: none;
     outline: none;
     transition: 0.5s;
+    color: white;
+    padding: 0px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 0px 60px 60px 0px;
 }
 
 
 #goRight {
     position: absolute;
-    right: 0;
+    right: -1px;
     transition: translateY(-50%);
-    width: 6%;
-    height: 100%;
+    width: 5.5%;
+    height: 300px;
     background: none;
     border: none;
     outline: none;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 60px 0px 0px 60px;
 }
 
 .goLeft_text {
-    color: #000;
-    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
 }
 
 .goRight_text {
-    color: #000;
-    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
 }
 
 #goLeft:hover {
-    background: rgba(0, 0, 0, 0.288);
+    background: rgba(0, 0, 0, 0.7);
     transition: 0.5s;
     cursor: pointer;
     
 }
 #goRight:hover {
-    background: rgba(0, 0, 0, 0.288);
+    background: rgba(0, 0, 0, 0.7);
     transition: 0.5s;
     cursor: pointer;
 }
@@ -109,9 +116,21 @@
     height: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .slider {
         height: 500px;
+    }
+    #goLeft {
+        width: 7%;
+    }
+    #goRight {
+        width: 7%;
+    }
+    .goLeft_text {
+        font-size: 70px;
+    }
+    .goRight_text {
+        font-size: 70px;
     }
 }
 
@@ -123,16 +142,24 @@
     }
     #goLeft {
         width: 10%;
+        height: 100px;
     }
     #goRight {
         width: 10%;
+        height: 100px;
     }
-    #goLeft i {
+    .goLeft_text {
+        font-size: 50px;
+    }
+    .goRight_text {
+        font-size: 50px;
+    }
+    /* #goLeft i {
         font-size: 40px;
     }
     #goRight i {
         font-size: 40px;
-    }
+    } */
 }
 
 @media screen and (max-width: 480px) {

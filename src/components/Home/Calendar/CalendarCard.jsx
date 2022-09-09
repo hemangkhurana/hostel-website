@@ -22,8 +22,8 @@ function CalendarCard(props) {
                         <p>End: </p>
                     </div>
                     <div className={styles.item_time}>
-                    <p className={styles.item_startTime}>{props.startTime}</p>
-                    <p className={styles.item_endTime}>{props.endTime}</p>
+                        <p className={styles.item_startTime}>{props.startTime}</p>
+                        <p className={styles.item_endTime}>{props.endTime}</p>
                     </div>
                 </div>
             </div>

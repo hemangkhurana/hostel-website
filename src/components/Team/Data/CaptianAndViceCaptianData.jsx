@@ -97,7 +97,7 @@ const CaptianAndViceCaptianData = [
     {
         name: "Bheem",
         position: "Basketball Vice-Captian",
-        src: require("../images/Bheem_basketball.jpeg").default
+        src: require("../images/BHEEM_basketball.jpeg").default
     },
     {
         name: "Hemang",
@@ -117,7 +117,7 @@ const CaptianAndViceCaptianData = [
     {
         name: "Shlokh",
         position: "Weight Lifting Vice-Captian",
-        src: require("../images/Shlokh_Weightlifting.jpeg").default
+        src: require("../images/Shlokh_weightlifting.jpeg").default
     },
 ]
 

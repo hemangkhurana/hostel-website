@@ -9,16 +9,16 @@ function NoticeBoard() {
 
     // open close notice board
     const [toggleMenu, setToggleMenu] = useState(false)
-    const [toggleArrow, setToggleArrow] = useState(false);
+    // const [toggleArrow, setToggleArrow] = useState(false);
 
-    function changeToggleArrow() {
-        return setToggleArrow(!toggleArrow);
-    }
+    // function changeToggleArrow() {
+    //     return setToggleArrow(!toggleArrow);
+    // }
     function ChangeToggleMenu() {
         return setToggleMenu(!toggleMenu);
     }
 
-    const toggleArrowUD = toggleArrow ? styles.yes : styles.no;
+    // const toggleArrowUD = toggleArrow ? styles.yes : styles.no;
     // const toggleArrowClass = toggleArrow ? {fa-angles-up} : fa-angles-down; 
     const noticeBoardClass = toggleMenu ? styles.active : '';
 
