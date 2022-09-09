@@ -17,7 +17,7 @@ const RepresentativeData = [
     {
         name: "Shlokh Mohta",
         position: "Dance Representative",
-        src: require("../images/Shlokh_weightlifting.jpeg").default
+        src: require("../images/Shlokh_Weightlifting.jpeg").default
     },
     {
         name: "Sujal",
