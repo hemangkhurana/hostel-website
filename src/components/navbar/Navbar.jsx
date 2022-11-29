@@ -21,7 +21,7 @@ function Navbar() {
                 <h1 className={styles.navbar_heading}>NILGIRI</h1>
             </Link>
             
-            <ul className={`${styles.navbar_menu} ${navbarClass}`}>
+            <ul className={`${styles.navbar_menu} ${styles.navbarClass}`}>
                 <Link className={styles.react_router_link_item} to="/">
                     <li className={styles.navbar_item} onClick={ChangeToggleMenu}>
                         <p className={styles.navbar_itemlol}>Home</p>

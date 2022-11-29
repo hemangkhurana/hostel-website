@@ -138,6 +138,7 @@
     }
 
     .navbar_menu.active {
+        z-index: 10000;
         /* left:0; */
         top: 70px;
         transition: all 0.4s ease;
