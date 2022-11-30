@@ -42,7 +42,7 @@
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     position: relative;
-    min-width: 400px;
+    /* min-width: 200px; */
     /* padding-left: 2px; */
     font-size: 50px;
     z-index: 990;
@@ -137,11 +137,12 @@
         /* left: -100%; */
     }
 
-    .navbar_menu.active {
-        /* left:0; */
+    /* .navbarLOLactive {
+        z-index: 10000;
+        left:0;
         top: 70px;
         transition: all 0.4s ease;
-    }
+    } */
 
     .navbar_menu a {
         text-decoration: none;
@@ -208,7 +209,7 @@
         padding-left: 0px;
         margin-left: -10px;
         font-size: 35px;
-        min-width: 300px;
+        /* min-width: 300px; */
     }
     #logo{
         margin-left: -10px;
@@ -222,7 +223,7 @@
         top: -100px;
         width: 100%;
     }
-    .navbar_menu.active {
+    .navbarLOLactive {
         top: 65px;
     }
     .btn {
@@ -285,12 +286,12 @@
         top: -100px;
         width: 100%;
     }
-    .navbar_menu.active {
+    .navbarLOLactive {
         top: 65px;
     }
     .btn {
         margin-right: 5px;
-        right: 80px;
+        right: 10px;
     }
     #logo{
         height: 70px;

@@ -164,6 +164,7 @@
 
 @media screen and (max-width: 480px) {
     .slider {
-        height: 220px;
+        height: 250px;
+        transform: scale(1,1.2);
     }
 }

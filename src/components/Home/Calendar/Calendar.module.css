@@ -64,7 +64,7 @@
     max-width: 350px;
     max-height: 220px;
     background: #606060;
-    margin: 0 25px;
+    margin: 0px 25px;
     border-radius: 25px;
     transition: 0.4s ease;
     padding: 0 20px;
@@ -245,7 +245,7 @@
 
 @media screen and (max-width:450px){
     .item{
-        margin: 0px 13px
+        margin: 20px 13px
     }
     .item_timings {
         scale: 0.8;

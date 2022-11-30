@@ -1,0 +1,20 @@
+@media screen and (max-width: 920px) {
+    .navbarLOLactive {
+        /* z-index: 10000; */
+        /* left:0; */
+        top: 70px;
+        transition: all 0.4s ease;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbarLOLactive {
+        top: 65px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbarLOLactive {
+        top: 65px;
+    }
+}
