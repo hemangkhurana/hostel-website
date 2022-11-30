@@ -21,10 +21,13 @@
     border-bottom: 3px solid black;
 }
 .heading2 {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
     font-size: 40px;
     text-align: center;
+}
+.heading2:hover{
+    cursor: pointer;
 }
 
 .hr2 { 

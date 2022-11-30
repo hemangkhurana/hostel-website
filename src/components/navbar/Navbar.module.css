@@ -42,7 +42,7 @@
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     position: relative;
-    min-width: 400px;
+    /* min-width: 200px; */
     /* padding-left: 2px; */
     font-size: 50px;
     z-index: 990;
@@ -209,7 +209,7 @@
         padding-left: 0px;
         margin-left: -10px;
         font-size: 35px;
-        min-width: 300px;
+        /* min-width: 300px; */
     }
     #logo{
         margin-left: -10px;
@@ -291,7 +291,7 @@
     }
     .btn {
         margin-right: 5px;
-        right: 80px;
+        right: 10px;
     }
     #logo{
         height: 70px;
