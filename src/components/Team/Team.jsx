@@ -78,6 +78,7 @@ const Team = () => {
         fetchSecysData();
         fetchRepsData();
         fetchCaptainsData();
+        console.log("Data fetched!")
     }, []);
     const [dropSec, setDropSec] = useState(false);
     const [dropReps, setDropReps] = useState(false);
