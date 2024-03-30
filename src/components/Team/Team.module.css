@@ -14,7 +14,7 @@
     font-size: 40px;
     text-align: center;
 }
-.hr1 { 
+.hr1 {
     padding-bottom: 10px;
     margin: 0 10% 40px 10%;
     border: #fff;
@@ -26,14 +26,14 @@
     font-size: 40px;
     text-align: center;
 }
-.heading2:hover{
+.heading2:hover {
     cursor: pointer;
 }
 
-.hr2 { 
+.hr2 {
     width: 40%;
     border: #fff;
-    margin: 5px auto 40px auto;  
+    margin: 5px auto 40px auto;
     border-bottom: 2px dashed grey;
 }
 
@@ -44,6 +44,7 @@
     flex-wrap: wrap;
     margin: auto;
     width: 90%;
+    transition: all 0.5s ease;
 }
 
 .TeamCard {
@@ -53,7 +54,6 @@
     width: 33%;
     margin: 50px 0;
 }
-
 
 .Card_img {
     width: 150px;
@@ -83,7 +83,7 @@
 .contact_details {
     display: flex;
     padding: 10px 40% 0 40%;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     /* flex-direction: column; */
 }
@@ -138,4 +138,3 @@ i {
         width: 100%;
     }
 }
-
