@@ -7,12 +7,12 @@ function PhotoGallery() {
     const [tempImgSrc, setTempImgSrc] = React.useState('');
     const [tempImgName, setTempImgName] = React.useState('');
 
-    function getImg(props) {
+    const  getImg = (props) => {
         setTempImgSrc(props.image);
         setTempImgName(props.imgName);
         setModel(true);
     }
-    function PhotoCard(props) {
+    const  PhotoCard = (props) => {
         return (
             <div className={styles.photo_card} onClick={() => getImg(props)}>
                 <h1 className={styles.img_heading}>{props.imgName}</h1>
@@ -27,8 +27,6 @@ function PhotoGallery() {
     const modelClass = model ? styles.open : '';
     return (
         <div className={styles.gallery}>
-            {/* <h1 className={styles.heading1}>IMAGE GALLERY</h1>
-            <hr className={styles.hr1}/> */}
             <div className={`${styles.model} ${modelClass}`}>
                 <i className="fas fa-times" onClick={() => setModel(false)}></i>
                 <h1 className={styles.model_imgName}>{tempImgName}</h1>
