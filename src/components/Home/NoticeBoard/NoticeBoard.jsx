@@ -24,7 +24,7 @@ function NoticeBoard() {
 
     // map data from excel sheet
     useEffect(() => {
-        console.log('working');
+        // console.log('working');
         fetch(
             'https://docs.google.com/spreadsheets/d/1mVEfz2XBOMTWfqHKQ0Hjdwv_Ln3RXFqVGqJtlDfj5rs/export?format=tsv'
         )

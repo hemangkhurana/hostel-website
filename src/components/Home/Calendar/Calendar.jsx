@@ -10,7 +10,6 @@ function Calendar() {
 
     useEffect(() => {
         const fetchData = async () => {
-
             const resp = await fetch(
                 'https://docs.google.com/spreadsheets/d/1GJ1SUAIRbK9ep96SxbID8AmHUxiT_asiELv9WZQkGBE/export?format=tsv'
             );
@@ -40,7 +39,7 @@ function Calendar() {
             });
 
             setEventData(Events);
-            console.log(Events);
+            // console.log(Events);
         };
         fetchData();
     }, []);
