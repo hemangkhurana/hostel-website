@@ -30,6 +30,8 @@ const Team = () => {
                 };
                 secys.push(temp);
             });
+            console.log(secys);
+
             setSecyData(secys);
         };
         const fetchRepsData = async () => {
@@ -51,6 +53,8 @@ const Team = () => {
                 };
                 reps.push(temp);
             });
+            console.log(reps);
+
             setRepData(reps);
         };
         const fetchCaptainsData = async () => {
@@ -72,13 +76,17 @@ const Team = () => {
                 };
                 captains.push(temp);
             });
+            console.log(captains);
             setCaptainData(captains);
         };
 
-        fetchSecysData();
-        fetchRepsData();
-        fetchCaptainsData();
-        console.log("Data fetched!")
+        const fetchData = async () => {
+            await fetchSecysData();
+            await fetchRepsData();
+            await fetchCaptainsData();
+            console.log('Data fetched!');
+        };
+        fetchData();
     }, []);
     const [dropSec, setDropSec] = useState(false);
     const [dropReps, setDropReps] = useState(false);
