@@ -1,15 +1,15 @@
 const SecretaryData = [
     {
-        image: require("./Images/1.jpg").default
+        image: require("./Images/1.jpg")
     },
     {
-        image: require("./Images/2.jpg").default
+        image: require("./Images/2.jpg")
     },
     {
-        image: require("./Images/3.jpg").default
+        image: require("./Images/3.jpg")
     },
     {
-        image: require("./Images/4.jpg").default
+        image: require("./Images/4.jpg")
     },
     // {
     //     image: "https://images.unsplash.com/photo-1604997173908-7a28e5837f62?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80"

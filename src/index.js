@@ -1,5 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App.jsx";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './components/App.jsx';
+import { Analytics } from '@vercel/analytics/react';
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.render(<App />,  document.getElementById('root'));
+root.render(
+    <>
+        <App />
+        <Analytics />
+    </>
+);
